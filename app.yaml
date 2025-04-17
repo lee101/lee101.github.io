@@ -1,6 +1,5 @@
-runtime: python27
-api_version: 1
-threadsafe: yes
+runtime: python312
+entrypoint: uvicorn main:app --host=0.0.0.0 --port=$PORT
 
 default_expiration: "300d 5h"
 
@@ -31,15 +30,6 @@ handlers:
     Vary: Accept-Encoding
   expiration: "0d 1h"
 
-- url: .*
-  script: main.app
-
-libraries:
-- name: webapp2
-  version: "2.5.2"
-- name: jinja2
-  version: "2.6"
-
 instance_class: F1
 automatic_scaling:
   max_pending_latency: 7.5s
@@ -48,5 +38,5 @@ automatic_scaling:
 #   max_pending_latency: 4.5s
 
 
-inbound_services:
-- warmup
+# inbound_services:
+# - warmup
