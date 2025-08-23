@@ -2,15 +2,15 @@ body {
   font-size: 18px;
 }
 a {
-  color: #3b5997;
+  color: #3B5997;
 }
 a:hover,
 a:focus {
-  color: #4098fd;
+  color: #4098FD;
   text-decoration: none;
 }
 .btn-danger {
-  background-color: #ed142e;
+  background-color: #ED142E;
 }
 .btn-warning {
   background-color: #ed9c28;
@@ -25,26 +25,26 @@ a:focus {
   text-align: left;
 }
 .text-smaller {
-  font-size: 13.8px;
+  font-size: 18px / 1.30434783;
 }
 @media (min-width: 481px) {
   .text-smaller {
-    font-size: 15px;
+    font-size: 18px / 1.2;
   }
 }
 @media (min-width: 641px) {
   .text-smaller {
-    font-size: 15.6px;
+    font-size: 18px / 1.15384615;
   }
 }
 @media (min-width: 961px) {
   .text-smaller {
-    font-size: 16.2px;
+    font-size: 18px / 1.11111111;
   }
 }
 @media (min-width: 1025px) {
   .text-smaller {
-    font-size: 16.8px;
+    font-size: 18px / 1.07142857;
   }
 }
 @media (min-width: 1281px) {
@@ -82,11 +82,11 @@ body {
   height: 100%;
 }
 .main-header {
-  padding-top: 16px;
-  padding-bottom: 0px;
+  padding-top: 80px;
+  padding-bottom: 30px;
   position: relative;
   color: #363636;
-  font-size: 39.9px;
+  font-size: 63px / 1.57894737;
   -webkit-font-smoothing: subpixel-antialiased;
   box-sizing: border-box;
   display: block;
@@ -95,22 +95,22 @@ body {
 }
 @media (min-width: 481px) {
   .main-header {
-    font-size: 50.4px;
+    font-size: 63px / 1.25;
   }
 }
 @media (min-width: 641px) {
   .main-header {
-    font-size: 54.6px;
+    font-size: 63px / 1.15384615;
   }
 }
 @media (min-width: 961px) {
   .main-header {
-    font-size: 56.7px;
+    font-size: 63px / 1.11111111;
   }
 }
 @media (min-width: 1025px) {
   .main-header {
-    font-size: 58.8px;
+    font-size: 63px / 1.07142857;
   }
 }
 @media (min-width: 1281px) {
@@ -119,27 +119,27 @@ body {
   }
 }
 h2 {
-  font-size: 28.5px;
+  font-size: 45px / 1.57894737;
   margin: 45px 0 15px 0;
 }
 @media (min-width: 481px) {
   h2 {
-    font-size: 36px;
+    font-size: 45px / 1.25;
   }
 }
 @media (min-width: 641px) {
   h2 {
-    font-size: 39px;
+    font-size: 45px / 1.15384615;
   }
 }
 @media (min-width: 961px) {
   h2 {
-    font-size: 40.5px;
+    font-size: 45px / 1.11111111;
   }
 }
 @media (min-width: 1025px) {
   h2 {
-    font-size: 42px;
+    font-size: 45px / 1.07142857;
   }
 }
 @media (min-width: 1281px) {
@@ -154,26 +154,26 @@ h2 {
   font-weight: 100;
   letter-spacing: 3px;
   line-height: 1.5;
-  font-size: 28.5px;
+  font-size: 45px / 1.57894737;
 }
 @media (min-width: 481px) {
   .social-links {
-    font-size: 36px;
+    font-size: 45px / 1.25;
   }
 }
 @media (min-width: 641px) {
   .social-links {
-    font-size: 39px;
+    font-size: 45px / 1.15384615;
   }
 }
 @media (min-width: 961px) {
   .social-links {
-    font-size: 40.5px;
+    font-size: 45px / 1.11111111;
   }
 }
 @media (min-width: 1025px) {
   .social-links {
-    font-size: 42px;
+    font-size: 45px / 1.07142857;
   }
 }
 @media (min-width: 1281px) {
@@ -230,27 +230,27 @@ h2 {
   background-color: #eee;
 }
 .text-tiny {
-  font-size: 12.42px;
+  font-size: 16.2px / 1.30434783;
   color: gray;
 }
 @media (min-width: 481px) {
   .text-tiny {
-    font-size: 13.5px;
+    font-size: 16.2px / 1.2;
   }
 }
 @media (min-width: 641px) {
   .text-tiny {
-    font-size: 14.04px;
+    font-size: 16.2px / 1.15384615;
   }
 }
 @media (min-width: 961px) {
   .text-tiny {
-    font-size: 14.58px;
+    font-size: 16.2px / 1.11111111;
   }
 }
 @media (min-width: 1025px) {
   .text-tiny {
-    font-size: 15.12px;
+    font-size: 16.2px / 1.07142857;
   }
 }
 @media (min-width: 1281px) {
@@ -279,7 +279,6 @@ h2 {
   }
   h2,
   .main-header {
-    padding-top: 0px;
     font-size: 16px;
   }
   .media-object {
@@ -347,29 +346,29 @@ body {
 .mm-logo__text {
   font-family: gesta, sans-serif;
   font-weight: bold;
-  font-size: 18.24px;
-  color: #3b5997;
+  font-size: 28.8px / 1.57894737;
+  color: #3B5997;
   display: inline;
   margin-left: 10px;
 }
 @media (min-width: 481px) {
   .mm-logo__text {
-    font-size: 23.04px;
+    font-size: 28.8px / 1.25;
   }
 }
 @media (min-width: 641px) {
   .mm-logo__text {
-    font-size: 24.96px;
+    font-size: 28.8px / 1.15384615;
   }
 }
 @media (min-width: 961px) {
   .mm-logo__text {
-    font-size: 25.92px;
+    font-size: 28.8px / 1.11111111;
   }
 }
 @media (min-width: 1025px) {
   .mm-logo__text {
-    font-size: 26.88px;
+    font-size: 28.8px / 1.07142857;
   }
 }
 @media (min-width: 1281px) {
@@ -383,14 +382,14 @@ body {
 }
 .mm-logo__link:focus .mm-logo__text,
 .mm-logo__link:hover .mm-logo__text {
-  color: #4098fd;
+  color: #4098FD;
 }
 .mm-hero {
   padding-top: 40px;
   padding-bottom: 40px;
   padding-left: 40px;
   padding-right: 40px;
-  background-color: #3b5997;
+  background-color: #3B5997;
 }
 @media (max-width: 480px) {
   .mm-hero {
@@ -398,10 +397,10 @@ body {
   }
 }
 .mm-hero--secondary {
-  background-color: #4098fd;
+  background-color: #4098FD;
 }
 .mm-hero--third {
-  background-color: #ed142e;
+  background-color: #ED142E;
 }
 .mm-hero--light {
   background-color: white;
@@ -413,26 +412,26 @@ body {
   display: block;
   font-family: gesta, sans-serif;
   font-weight: normal;
-  font-size: 34.2px;
+  font-size: 54px / 1.57894737;
 }
 @media (min-width: 481px) {
   .mm-marketing-text {
-    font-size: 43.2px;
+    font-size: 54px / 1.25;
   }
 }
 @media (min-width: 641px) {
   .mm-marketing-text {
-    font-size: 46.8px;
+    font-size: 54px / 1.15384615;
   }
 }
 @media (min-width: 961px) {
   .mm-marketing-text {
-    font-size: 48.6px;
+    font-size: 54px / 1.11111111;
   }
 }
 @media (min-width: 1025px) {
   .mm-marketing-text {
-    font-size: 50.4px;
+    font-size: 54px / 1.07142857;
   }
 }
 @media (min-width: 1281px) {
@@ -441,26 +440,26 @@ body {
   }
 }
 .mm-marketing-text--smaller {
-  font-size: 28.5px;
+  font-size: 45px / 1.57894737;
 }
 @media (min-width: 481px) {
   .mm-marketing-text--smaller {
-    font-size: 36px;
+    font-size: 45px / 1.25;
   }
 }
 @media (min-width: 641px) {
   .mm-marketing-text--smaller {
-    font-size: 39px;
+    font-size: 45px / 1.15384615;
   }
 }
 @media (min-width: 961px) {
   .mm-marketing-text--smaller {
-    font-size: 40.5px;
+    font-size: 45px / 1.11111111;
   }
 }
 @media (min-width: 1025px) {
   .mm-marketing-text--smaller {
-    font-size: 42px;
+    font-size: 45px / 1.07142857;
   }
 }
 @media (min-width: 1281px) {
@@ -475,10 +474,10 @@ body {
   margin: 20px;
 }
 #footerbody {
-  border-top: 10px solid #3b5997;
+  border-top: 10px solid #3B5997;
 }
 .mm-footer__heading {
-  font-size: 19.38px;
+  font-size: 30.6px / 1.57894737;
   text-align: left;
   border-bottom-color: #2f2f2f;
   border-bottom-width: 1px;
@@ -486,22 +485,22 @@ body {
 }
 @media (min-width: 481px) {
   .mm-footer__heading {
-    font-size: 24.48px;
+    font-size: 30.6px / 1.25;
   }
 }
 @media (min-width: 641px) {
   .mm-footer__heading {
-    font-size: 26.52px;
+    font-size: 30.6px / 1.15384615;
   }
 }
 @media (min-width: 961px) {
   .mm-footer__heading {
-    font-size: 27.54px;
+    font-size: 30.6px / 1.11111111;
   }
 }
 @media (min-width: 1025px) {
   .mm-footer__heading {
-    font-size: 28.56px;
+    font-size: 30.6px / 1.07142857;
   }
 }
 @media (min-width: 1281px) {
@@ -531,26 +530,26 @@ body {
   display: block;
 }
 .mm-sharing-btns {
-  font-size: 21.66px;
+  font-size: 34.2px / 1.57894737;
 }
 @media (min-width: 481px) {
   .mm-sharing-btns {
-    font-size: 27.36px;
+    font-size: 34.2px / 1.25;
   }
 }
 @media (min-width: 641px) {
   .mm-sharing-btns {
-    font-size: 29.64px;
+    font-size: 34.2px / 1.15384615;
   }
 }
 @media (min-width: 961px) {
   .mm-sharing-btns {
-    font-size: 30.78px;
+    font-size: 34.2px / 1.11111111;
   }
 }
 @media (min-width: 1025px) {
   .mm-sharing-btns {
-    font-size: 31.92px;
+    font-size: 34.2px / 1.07142857;
   }
 }
 @media (min-width: 1281px) {
@@ -563,22 +562,22 @@ body {
   font-size: 36px;
 }
 .mm-share-btn--twitter {
-  color: #4098fd;
+  color: #4098FD;
 }
 .mm-share-btn--google-plus {
-  color: #ed142e;
+  color: #ED142E;
 }
 .mm-share-btn--pinterest {
-  color: #ca2027;
+  color: #CA2027;
 }
 .mm-share-btn--linked-in {
-  color: #1a84bc;
+  color: #1A84BC;
 }
 .mm-share-btn--reddit {
-  color: #cee3f8;
+  color: #CEE3F8;
 }
 .mm-share-btn--stumbleupon {
-  color: #ea4b24;
+  color: #EA4B24;
 }
 .mm-highlighted-new {
   text-align: center;
@@ -628,10 +627,10 @@ body {
   padding-bottom: 20px;
 }
 .pistachio {
-  background-color: #1aac8f;
+  background-color: #1AAC8F;
 }
 .morange {
-  background-color: #f0a878;
+  background-color: #F0A878;
 }
 .lighter-gray {
   background-color: #eeeeee;
@@ -647,7 +646,7 @@ body {
 }
 .icon-container {
   border-radius: 40px;
-  border: 3px solid #3b5997;
+  border: 3px solid #3B5997;
   width: 64px;
   height: 64px;
   display: none;
@@ -661,7 +660,7 @@ body {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  color: #3b5997;
+  color: #3B5997;
   font-size: 27px;
 }
 .icon-container__icon--forward {
@@ -669,7 +668,7 @@ body {
 }
 .icon-container__icon--globe {
   font-size: 33px;
-  color: #4098fd;
+  color: #4098FD;
 }
 .icon-container--white {
   border-color: white;
@@ -677,4 +676,4 @@ body {
 .icon-container--white .icon-container__icon {
   color: white;
 }
-/*# sourceMappingURL=/static/css/style.css.map */
+/*# sourceMappingURL=static/css/style.css.map */

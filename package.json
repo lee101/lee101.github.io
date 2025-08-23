@@ -1,0 +1,18 @@
+{
+  "name": "lee101.github.io",
+  "version": "1.0.0",
+  "description": "Lee's personal website",
+  "scripts": {
+    "build": "grunt less",
+    "watch": "grunt watch",
+    "dev": "grunt",
+    "build:site": "./build.sh",
+    "deploy": "./deploy-r2.sh",
+    "setup:bucket": "./setup-r2-bucket.sh"
+  },
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-contrib-less": "^3.0.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}

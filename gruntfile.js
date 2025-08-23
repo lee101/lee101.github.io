@@ -16,7 +16,8 @@ module.exports = function (grunt) {
 					sourceMap: true,
 					sourceMapFilename: 'static/css/style.css.map',
 					sourceMapBasepath: '/',
-					sourceMapRootpath: '/'
+					sourceMapRootpath: '/',
+					javascriptEnabled: true
 				}
 			}
 		}
