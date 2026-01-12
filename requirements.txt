@@ -6,9 +6,11 @@ anyio==4.8.0
     # via starlette
 click==8.1.8
     # via uvicorn
+exceptiongroup==1.2.2
+    # via anyio
 fastapi==0.115.8
     # via -r requirements.in
-h11==0.14.0
+h11==0.16.0
     # via uvicorn
 idna==3.10
     # via anyio
@@ -30,5 +32,7 @@ typing-extensions==4.12.2
     #   fastapi
     #   pydantic
     #   pydantic-core
+    #   starlette
+    #   uvicorn
 uvicorn==0.34.0
     # via -r requirements.in
